@@ -3,12 +3,11 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from 'lucide-react'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
+    Email: muhammadhassaanaslam786@gmail.com
     message: '',
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -26,7 +25,7 @@ export default function Contact() {
     await new Promise(resolve => setTimeout(resolve, 2000))
     
     // Reset form
-    setFormData({ name: '', email: '', message: '' })
+    setFormData({ name: '', Email: muhammadhassaanaslam786@gmail.com
     setIsSubmitting(false)
     
     // Show success message (you can implement a toast notification here)
@@ -48,10 +47,7 @@ export default function Contact() {
       href: 'mailto:hassaan@example.com',
     },
     {
-      icon: Phone,
-      title: 'Phone',
       value: '+92 300 123 4567',
-      href: 'tel:+923001234567',
     },
     {
       icon: MapPin,
@@ -128,7 +124,6 @@ export default function Contact() {
                   placeholder="Your name"
                 />
               </div>
-              
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                   Email
@@ -144,7 +139,6 @@ export default function Contact() {
                   placeholder="your.email@example.com"
                 />
               </div>
-              
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                   Message
@@ -160,7 +154,6 @@ export default function Contact() {
                   placeholder="Tell me about your project..."
                 />
               </div>
-              
               <motion.button
                 type="submit"
                 disabled={isSubmitting}

@@ -7,7 +7,6 @@ Ultra-premium, interactive portfolio website built with Next.js, TailwindCSS, an
 - **Ultra-Premium Design**: Modern, clean, and professional design with gradient effects
 - **Interactive Animations**: Smooth scroll-triggered animations using Framer Motion
 - **Dark/Light Mode**: Toggle between themes with smooth transitions
-- **Fully Responsive**: Optimized for mobile, tablet, and desktop
 - **SEO Optimized**: Meta tags, structured data, and performance optimized
 - **Accessible**: WCAG compliant with proper ARIA labels
 - **Particle Background**: Animated particle system for visual appeal
@@ -189,7 +188,7 @@ npm run lint         # Run ESLint
 
 For questions or support:
 
-- Email: <muhammadhassaan786@gmail.com>
+- Email: muhammadhassaanaslam786@gmail.com
 - GitHub Issues: [Create an issue](<https://github.com/HassaanFisky>
 
 📄 License
