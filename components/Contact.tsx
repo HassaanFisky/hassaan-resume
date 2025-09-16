@@ -67,7 +67,7 @@ export default function Contact() {
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      href:'https://www.linkedin.com/in/hassaan-khan-975679270/',
+      href: 'https://www.linkedin.com/in/hassaan-khan-975679270/',
       color: 'hover:text-blue-600',
     },
     {
@@ -136,7 +136,7 @@ export default function Contact() {
                   onChange={handleInputChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-dark-800 text-gray-900 dark:text-white transition-all duration-200"
-                  placeholder="your.email@example.com"
+                  placeholder="Your Email Address"
                 />
               </div>
               <div>
@@ -145,13 +145,13 @@ export default function Contact() {
                 </label>
                 <textarea
                   id="message"
-                  name="message"
+                  name="=message"
                   value={formData.message}
                   onChange={handleInputChange}
                   required
                   rows={5}
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-dark-800 text-gray-900 dark:text-white transition-all duration-200 resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Tell me about your Request..."
                 />
               </div>
               <motion.button
@@ -161,7 +161,7 @@ export default function Contact() {
                 whileTap={{ scale: 0.98 }}
                 className="w-full button-primary text-lg py-4 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {isSubmitting ? 'Sending...' : "Let&apos;s Build Genius Together"}
+                {isSubmitting ? 'Sending...' : "Lets Build Genius Together"}
               </motion.button>
             </form>
           </motion.div>
@@ -237,7 +237,7 @@ export default function Contact() {
               </h4>
               <p className="text-primary-100">
                 I typically respond within 24 hours, often much sooner. 
-                Let&apos;s start building your next big thing!
+                Lets start building your next big thing!
               </p>
             </motion.div>
           </motion.div>
