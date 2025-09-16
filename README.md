@@ -188,8 +188,8 @@ npm run lint         # Run ESLint
 
 For questions or support:
 
-- Email: muhammadhassaanaslam786@gmail.com
-- GitHub Issues: [Create an issue](<https://github.com/HassaanFisky>
+- Email: <fiskyhere@gmail.com>
+- GitHub :<https://github.com/HassaanFisky>
 
 📄 License
 
