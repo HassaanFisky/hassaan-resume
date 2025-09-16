@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer'
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
-    Email: muhammadhassaanaslam786@gmail.com
+    Email: fiskyhere@gmail.com
     message: '',
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -25,7 +25,7 @@ export default function Contact() {
     await new Promise(resolve => setTimeout(resolve, 2000))
     
     // Reset form
-    setFormData({ name: '', Email: muhammadhassaanaslam786@gmail.com
+    setFormData({ name: '', Email: fiskyhere@gmail.com
     setIsSubmitting(false)
     
     // Show success message (you can implement a toast notification here)
@@ -43,11 +43,11 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hassaan@example.com',
-      href: 'mailto:hassaan@example.com',
+      value: 'fiskyhere@gmaiil.com',
+      href: 'mailto:fiskyhere@gmail.com',
     },
     {
-      value: '+92 300 123 4567',
+      value: '+92 316 8330001',
     },
     {
       icon: MapPin,
@@ -61,19 +61,19 @@ export default function Contact() {
     {
       icon: Github,
       name: 'GitHub',
-      href: 'https://github.com/hassaanaslam',
+      href: 'https://github.com/hassaanfisky',
       color: 'hover:text-gray-900 dark:hover:text-white',
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      href: 'https://linkedin.com/in/hassaanaslam',
+      href:'https://www.linkedin.com/in/hassaan-khan-975679270/',
       color: 'hover:text-blue-600',
     },
     {
       icon: Twitter,
       name: 'Twitter',
-      href: 'https://twitter.com/hassaanaslam',
+      href: 'https://twitter.com/hassaanfisky',
       color: 'hover:text-blue-400',
     },
   ]
