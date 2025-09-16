@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
-import Image from 'next/image'
 
 export default function Hero() {
   const scrollToAbout = () => {
@@ -61,6 +60,7 @@ export default function Hero() {
               >
                 Explore My Work
               </motion.button>
+              
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -107,17 +107,18 @@ export default function Hero() {
               whileHover={{ scale: 1.05, rotate: 5 }}
               className="relative"
             >
-              {/* Profile Picture */}
+              {/* Profile Picture Placeholder */}
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary-400 via-purple-500 to-primary-600 p-1 shadow-2xl">
-                <div className="w-full h-full rounded-full bg-white dark:bg-dark-800 overflow-hidden relative">
-                  <Image
-                    src="/profile.jpg"
-                    alt="Profile picture of Muhammad Hassaan Aslam"
-                    fill
-                    sizes="320px"
-                    priority
-                    className="object-cover rounded-full"
-                  />
+                <div className="w-full h-full rounded-full bg-white dark:bg-dark-800 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-8xl font-bold gradient-text mb-4">HA</div>
+                    <p className="text-gray-600 dark:text-gray-400 text-lg">
+                      Profile Picture
+                    </p>
+                    <p className="text-gray-500 dark:text-gray-500 text-sm">
+                      (Replace with actual image)
+                    </p>
+                  </div>
                 </div>
               </div>
 
