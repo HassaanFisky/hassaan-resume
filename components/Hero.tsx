@@ -111,7 +111,7 @@ export default function Hero() {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary-400 via-purple-500 to-primary-600 p-1 shadow-2xl">
                 <div className="w-full h-full rounded-full bg-white dark:bg-dark-800 overflow-hidden relative">
                   <Image
-                    src="/profile.jpg"
+                    src="/profile.jpeg"
                     alt="Profile picture of Muhammad Hassaan Aslam"
                     fill
                     sizes="320px"
