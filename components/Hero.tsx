@@ -61,13 +61,15 @@ export default function Hero() {
               >
                 Explore My Work
               </motion.button>
-              <motion.button
+              <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                href="/resume.pdf"
+                download="Muhammad_Hassaan_Aslam_Resume.pdf"
                 className="button-secondary"
               >
                 Download Resume
-              </motion.button>
+              </motion.a>
             </motion.div>
 
             {/* Social Links */}
@@ -78,9 +80,9 @@ export default function Hero() {
               className="flex justify-center lg:justify-start gap-6 mt-8"
             >
               {[
-                { icon: Github, href: '#', label: 'GitHub' },
+                { icon: Github, href: 'https://github.com/HassaanFisky', label: 'GitHub' },
                 { icon: Linkedin, href: '#', label: 'LinkedIn' },
-                { icon: Mail, href: '#', label: 'Email' },
+                { icon: Mail, href: 'mailto:fiskyhere@gmail.com', label: 'Email' },
               ].map((social) => (
                 <motion.a
                   key={social.label}
